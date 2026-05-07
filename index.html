@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang=“es”>
+<head>
+    <meta charset=“UTF-8”>
+    <meta name=“viewport” content=“width=device-width, initial-scale=1.0”>
+    <title>Control Limpieza Cocina</title>
+    <link rel=“stylesheet” href=“style.css”>
+</head>
+<body>
+
+<div class=“container”>
+    <h1>CONTROL DE LIMPIEZA COCINA</h1>
+    <h2>Residencia San Juan</h2>
+
+    <label>Mes:</label>
+    <input type=“text” id=“mes”>
+
+    <label>Año:</label>
+    <input type=“number” id=“anio”>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Día</th>
+                <th>Tarea</th>
+                <th>Hecho</th>
+                <th>Firma</th>
+            </tr>
+        </thead>
+        <tbody id=“tablaDias”></tbody>
+    </table>
+
+    <button onclick=“guardarDatos()”>Guardar</button>
+</div>
+
+<script src=“script.js”></script>
+
+</body>
+</html>
